@@ -1,0 +1,22 @@
+{
+    "name": "Víctor",
+    "age": "19",
+    "country": "Spain",
+    "married": false,
+    "pets": ["cat",2,false],
+    "cars":[
+    {
+        "brand": "opel",
+        "year":2014
+        "model": "corsa"
+        "maintenances": [
+        ]
+    },
+    {
+        "brand": "opel"
+        "year": 2014
+    }
+
+    ]
+
+}
