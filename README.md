@@ -1,6 +1,6 @@
 # Proyecto de Cliente y Servidor con API de Spotify
 
-¡Hola! Soy Víctor Medina, y este es mi proyecto de cliente y servidor en Java que interactúa con la API de Spotify. Este proyecto ha sido desarrollado como parte de [nombre del curso, trabajo, interés personal, etc.].
+¡Hola! Soy Víctor Medina, y este es mi proyecto de cliente y servidor en Java que interactúa con la API de Spotify.
 
 ## Descripción
 
