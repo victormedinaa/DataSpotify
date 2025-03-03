@@ -1,79 +1,91 @@
-# Proyecto de Cliente y Servidor con API de Spotify
+# Client-Server Project with Spotify API
 
-¡Hola! Soy Víctor Medina, y este es mi proyecto de cliente y servidor en Java que interactúa con la API de Spotify.
+This is my Java client-server project that interacts with the Spotify API.
 
-## Descripción
+## Description
 
-Este proyecto incluye un cliente que se conecta a la API de Spotify para realizar diversas operaciones y un servidor que maneja las solicitudes del cliente. El proyecto está estructurado de la siguiente manera:
+This project includes a client that connects to the Spotify API to perform various operations and a server that handles client requests. The project is structured as follows:
 
-- `src/main/java/es/ulpgc/client`: Contiene la lógica principal del cliente, incluidas las clases para la interoperabilidad con Spotify, utilidades y serialización.
-- `src/main/java/es/ulpgc/client/server`: Contiene la lógica del servidor.
+- `src/main/java/es/ulpgc/client`: Contains the main client logic, including classes for interoperability with Spotify, utilities, and serialization.
+- `src/main/java/es/ulpgc/client/server`: Contains the server logic.
 
-## Estructura del Proyecto
+## Project Structure
+
+```
 src/
 ├── main/
-│ ├── java/
-│ │ └── es/
-│ │ └── ulpgc/
-│ │ └── client/
-│ │ ├── cqrs/
-│ │ ├── interoperability/
-│ │ ├── serialization/
-│ │ ├── server/
-│ │ ├── util/
-│ │ └── Main.java
-│ └── resources/
+│   ├── java/
+│   │   └── es/
+│   │       └── ulpgc/
+│   │           └── client/
+│   │               ├── cqrs/
+│   │               ├── interoperability/
+│   │               ├── serialization/
+│   │               ├── server/
+│   │               ├── util/
+│   │               └── Main.java
+│   └── resources/
 └── test/
+```
 
+## Requirements
 
-## Requisitos
+- Java 11 or later
 
-- Java 11 o superior
+## Setup
 
-## Configuración
-
-1. Clona el repositorio en tu máquina local:
+1. Clone the repository to your local machine:
     ```sh
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/your-username/your-repository.git
     ```
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
     ```sh
-    cd tu-repositorio
+    cd your-repository
     ```
-3. Compila el proyecto usando Maven o Gradle (según tu configuración):
+3. Compile the project using Maven or Gradle (depending on your setup):
     ```sh
     mvn clean install
     ```
-4. Configura las credenciales de la API de Spotify en el archivo de configuración correspondiente:
+4. Configure your Spotify API credentials in the corresponding configuration file:
     ```properties
-    # Archivo de configuración (por ejemplo, src/main/resources/application.properties)
-    spotify.clientId=TU_CLIENT_ID
-    spotify.clientSecret=TU_CLIENT_SECRET
+    # Configuration file (e.g., src/main/resources/application.properties)
+    spotify.clientId=YOUR_CLIENT_ID
+    spotify.clientSecret=YOUR_CLIENT_SECRET
     ```
 
-## Uso
+## Usage
 
-Para ejecutar el cliente y el servidor, usa el siguiente comando:
-  sh
-java -cp target/tu-proyecto.jar es.ulpgc.client.Main
+To run the client and server, use the following command:
 
+```sh
+java -cp target/your-project.jar es.ulpgc.client.Main
+```
 
-## Contribución
+## Contribution
 
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+If you'd like to contribute to this project, follow these steps:
 
-Haz un fork del repositorio.
-Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
-Realiza tus cambios y commitea (git commit -am 'Añadir nueva funcionalidad').
-Sube tus cambios (git push origin feature/nueva-funcionalidad).
-Abre un Pull Request.
-Licencia
+1. Fork the repository.  
+2. Create a new branch:  
+   ```sh
+   git checkout -b feature/new-feature
+   ```
+3. Make your changes and commit them:  
+   ```sh
+   git commit -am 'Add new feature'
+   ```
+4. Push your changes:  
+   ```sh
+   git push origin feature/new-feature
+   ```
+5. Open a Pull Request.
 
-Este proyecto está licenciado bajo la Licencia MIT - mira el archivo LICENSE para más detalles.
+## License
 
-## Contacto
+This project is licensed under the MIT License – see the LICENSE file for more details.
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de victormedina2157@gmail.com o abrir un issue en GitHub.
+## Contact
 
-¡Gracias por visitar mi proyecto!
+If you have any questions or suggestions, feel free to contact me at **victormedina2157@gmail.com** or open an issue on GitHub.
 
+Thanks for checking out my project!
